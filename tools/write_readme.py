@@ -14,6 +14,18 @@ raw = r"""<div align="center">
 
 \u0435\u0441\u043b\u0438 \u0430\u043d\u0438\u043c\u0430\u0446\u0438\u044f \u0441\u0432\u0435\u0440\u0445\u0443 \u0443\u0436\u0435 \u0443\u0434\u0430\u0440\u0438\u043b\u0430 \u0442\u0435\u0431\u044f `COMMIT`-\u043e\u043c \u2014 \u0432\u0441\u0451 \u043f\u043e \u043f\u043b\u0430\u043d\u0443. \u0442\u044b \u0442\u0435\u043f\u0435\u0440\u044c \u0432 \u043f\u0430\u0442\u0438. \u043b\u0443\u0442 \u043d\u0438\u0436\u0435.
 
+## \u043a\u0430\u0440\u0442\u0430 \u0433\u043e\u0434\u0430
+
+Pac-Man \u0436\u0440\u0451\u0442 \u0442\u0432\u043e\u0438 \u043a\u043e\u043c\u043c\u0438\u0442\u044b. \u043f\u0440\u0438\u0437\u0440\u0430\u043a\u0438 \u2014 \u0434\u0435\u0434\u043b\u0430\u0439\u043d\u044b. \u0442\u043e\u0447\u043a\u0438 \u2014 \u0434\u043d\u0438, \u043a\u043e\u0433\u0434\u0430 \u0442\u044b \u0436\u0438\u043b.
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Byrandom18/Byrandom18/output/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Byrandom18/Byrandom18/output/pacman-contribution-graph.svg">
+    <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Byrandom18/Byrandom18/output/pacman-contribution-graph.svg">
+  </picture>
+</div>
+
 ## \u0434\u0440\u043e\u043f \u0441 \u044d\u0442\u043e\u0433\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f
 
 ### \u044d\u043f\u0438\u043a (\u0438\u0433\u0440\u044b)
