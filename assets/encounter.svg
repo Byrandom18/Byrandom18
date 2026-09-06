@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 460" role="img" aria-label="A wild visitor appeared">
+  <style>
+    .scene { animation: fadein 0.8s ease both; }
+    .title { animation: pop 0.6s 0.4s ease both; }
+    .sub { animation: fadein 0.5s 1.1s ease both; }
+    .slime { animation: drop 0.8s 1.6s cubic-bezier(.2,1.4,.3,1) both, idle 1.2s 2.4s ease-in-out infinite; transform-origin: 550px 250px; }
+    .hitfx { animation: hit 12s 6.4s ease both infinite; }
+    .bar-bg { animation: fadein 0.4s 3.2s ease both; }
+    .hp-hero { animation: grow 0.7s 3.4s ease both; transform-origin: 70px 86px; }
+    .hp-slime { animation: grow 0.7s 3.6s ease both, drain 12s 6.6s ease-in both infinite; transform-origin: 790px 86px; }
+    .log1 { animation: log 12s 4.6s ease both infinite; }
+    .log2 { animation: log 12s 6.5s ease both infinite; }
+    .log3 { animation: log 12s 8.4s ease both infinite; }
+    .loot { animation: loot 12s 9.2s ease both infinite; }
+    .spark { animation: spark 12s 6.6s ease-out infinite; }
+
+    @keyframes fadein { from { opacity: 0; } to { opacity: 1; } }
+    @keyframes pop { from { opacity: 0; transform: translateY(12px) scale(0.96); } to { opacity: 1; transform: none; } }
+    @keyframes drop { from { opacity: 0; transform: translateY(-90px) scale(0.7); } to { opacity: 1; transform: none; } }
+    @keyframes idle { 0%,100% { transform: translateY(0) scale(1,1); } 50% { transform: translateY(8px) scale(1.04,0.94); } }
+    @keyframes grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+    @keyframes drain { 0%,54% { transform: scaleX(1); } 62%,100% { transform: scaleX(0.16); } }
+    @keyframes hit {
+      0%,53% { opacity: 0; }
+      54% { opacity: 0.55; }
+      62% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    @keyframes log {
+      0% { opacity: 0; transform: translateY(8px); }
+      8%,70% { opacity: 1; transform: none; }
+      82%,100% { opacity: 0; }
+    }
+    @keyframes loot {
+      0%,76% { opacity: 0; transform: translateY(10px); }
+      84%,100% { opacity: 1; transform: none; }
+    }
+    @keyframes spark {
+      0%,54% { opacity: 0; transform: scale(0.4); }
+      58% { opacity: 1; transform: scale(1.15); }
+      70%,100% { opacity: 0; transform: scale(1.4); }
+    }
+  </style>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1020"/>
+      <stop offset="100%" stop-color="#1a1030"/>
+    </linearGradient>
+    <linearGradient id="hp1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3dd6d0"/>
+      <stop offset="100%" stop-color="#7c5cff"/>
+    </linearGradient>
+    <linearGradient id="hp2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7CFF8A"/>
+      <stop offset="100%" stop-color="#E3B341"/>
+    </linearGradient>
+    <radialGradient id="orb" cx="50%" cy="42%" r="45%">
+      <stop offset="0%" stop-color="#7c5cff" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#0b1020" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <g class="scene">
+    <rect width="1100" height="460" rx="28" fill="url(#bg)"/>
+    <rect width="1100" height="460" rx="28" fill="url(#orb)"/>
+    <rect class="hitfx" width="1100" height="460" rx="28" fill="#fff4c2"/>
+
+    <text class="title" x="550" y="48" text-anchor="middle" fill="#f4f7ff" font-family="Verdana, Geneva, sans-serif" font-size="28" font-weight="700">A WILD VISITOR APPEARED!</text>
+    <text class="sub" x="550" y="76" text-anchor="middle" fill="#b8c2e0" font-family="Verdana, Geneva, sans-serif" font-size="14">no save file. no running. only README.</text>
+
+    <g class="bar-bg">
+      <text x="70" y="70" fill="#c9d1d9" font-family="Verdana, Geneva, sans-serif" font-size="13">BYRANDOM18  Lv.18</text>
+      <rect x="70" y="80" width="240" height="16" rx="8" fill="#1c2544"/>
+      <rect class="hp-hero" x="70" y="80" width="240" height="16" rx="8" fill="url(#hp1)"/>
+      <text x="790" y="70" fill="#c9d1d9" font-family="Verdana, Geneva, sans-serif" font-size="13">VISITOR  ????</text>
+      <rect x="790" y="80" width="240" height="16" rx="8" fill="#1c2544"/>
+      <rect class="hp-slime" x="790" y="80" width="240" height="16" rx="8" fill="url(#hp2)"/>
+    </g>
+
+    <g class="slime">
+      <ellipse cx="550" cy="292" rx="92" ry="16" fill="#000" opacity="0.28"/>
+      <path d="M430 250 C430 180 670 180 670 250 C670 310 430 310 430 250 Z" fill="#7CFF8A"/>
+      <path d="M455 225 C500 195 620 195 650 230 C610 215 500 215 455 225 Z" fill="#b6ffbe" opacity="0.7"/>
+      <circle cx="515" cy="228" r="16" fill="#111"/>
+      <circle cx="585" cy="228" r="16" fill="#111"/>
+      <circle cx="520" cy="223" r="5" fill="#fff"/>
+      <circle cx="590" cy="223" r="5" fill="#fff"/>
+      <path d="M520 258 Q550 276 580 258" fill="none" stroke="#14602a" stroke-width="6" stroke-linecap="round"/>
+    </g>
+
+    <circle class="spark" cx="550" cy="230" r="26" fill="none" stroke="#fff4c2" stroke-width="6"/>
+
+    <rect x="70" y="340" width="960" height="92" rx="16" fill="#12182c" stroke="#7c5cff" stroke-opacity="0.35"/>
+    <text class="log1" x="96" y="378" fill="#f4f7ff" font-family="Verdana, Geneva, sans-serif" font-size="22" font-weight="700">Byrandom18 used COMMIT!</text>
+    <text class="log2" x="96" y="412" fill="#e3b341" font-family="Verdana, Geneva, sans-serif" font-size="20" font-weight="700">It's super effective!</text>
+    <text class="log3" x="520" y="412" fill="#3dd6d0" font-family="Verdana, Geneva, sans-serif" font-size="18">Visitor was added to the party.</text>
+
+    <g class="loot">
+      <rect x="300" y="148" width="500" height="36" rx="18" fill="#1c2544"/>
+      <text x="550" y="172" text-anchor="middle" fill="#e8ecff" font-family="Verdana, Geneva, sans-serif" font-size="15">LOOT UNLOCKED: Unity  +  C#  +  Kotlin  +  JS</text>
+    </g>
+  </g>
+</svg>
