@@ -1,8 +1,4 @@
-**Byrandom18** — маг коммитов и человек, который вместо зелья пьёт `dotnet build`.
-
 ## карта года
-
-Pac-Man жрёт твои коммиты. призраки — дедлайны. точки — дни, когда ты жил.
 
 <div align="center">
   <picture>
@@ -41,11 +37,6 @@ ult        git commit -m "it compiles on my machine"
 weakness   Hold on compiling shaders...
 resist     «давай ещё одну систему инвентаря»
 ```
-
-<div align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=Byrandom18&show_icons=true&theme=transparent&hide_border=true&bg_color=00000000&title_color=8b7cff&icon_color=3dd6d0&text_color=c9d1d9" alt="GitHub stats" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Byrandom18&layout=compact&theme=transparent&hide_border=true&bg_color=00000000&title_color=8b7cff&text_color=c9d1d9" alt="Top languages" />
-</div>
 
 <p align="center">
   пиши в гильдию: <a href="mailto:byrandom18@mail.ru">byrandom18@mail.ru</a>
