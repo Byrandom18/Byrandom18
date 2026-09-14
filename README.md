@@ -26,7 +26,7 @@
 | **[PostupiCalc](https://github.com/Byrandom18/PostupiCalc)** | Считает зачисление в вуз по CSV с Госуслуг. [использовать](https://byrandom18.github.io/PostupiCalc/) |
 | **[OneClickSend](https://github.com/Byrandom18/OneClickSend)** | Android-ульт: одно нажатие — фото улетает в Telegram или ВК. |
 | **[personal-vpn](https://github.com/Byrandom18/personal-vpn)** | Бафф невидимости для выбранных приложений. свой WireGuard, не чужой «бесплатный VPN». |
-| **[YandexGamesDB](https://github.com/Byrandom18/YandexGamesDB)** | .NET, анализирует каталог Яндекс Игр и считает спрос по жанрам, тегам и карточке: медианы, перспективы. |
+| **[YandexGamesDB](https://github.com/Byrandom18/YandexGamesDB)** | .NET, анализирует каталог Яндекс Игр и считает спрос по жанрам, тегам и карточке: медианы, индекс перспективы. |
 
 ## Билд персонажа
 
