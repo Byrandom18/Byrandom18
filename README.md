@@ -27,6 +27,7 @@
 | **[OneClickSend](https://github.com/Byrandom18/OneClickSend)** | Android-ульт: одно нажатие — фото улетает в Telegram или ВК. |
 | **[personal-vpn](https://github.com/Byrandom18/personal-vpn)** | Бафф невидимости для выбранных приложений. свой WireGuard, не чужой «бесплатный VPN». |
 | **[YandexGamesDB](https://github.com/Byrandom18/YandexGamesDB)** | .NET, анализирует каталог Яндекс Игр и считает спрос по жанрам, тегам, GQ, отзывы, инапы, платформы, описание, медианы, индекс перспективы. |
+| **[ImageCollectHelper](https://github.com/Byrandom18/ImageCollectHelper)** | Автоматический сбор изображений с открытой лицензией по заданным параметрам. |
 
 ## Билд персонажа
 
