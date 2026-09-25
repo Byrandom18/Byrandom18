@@ -29,11 +29,20 @@
 | **[YandexGamesDB](https://github.com/Byrandom18/YandexGamesDB)** | .NET, анализирует каталог Яндекс Игр и считает спрос по жанрам, тегам, GQ, отзывы, инапы, платформы, описание, медианы, индекс перспективы. |
 | **[ImageCollectHelper](https://github.com/Byrandom18/ImageCollectHelper)** | Автоматический сбор изображений с открытой лицензией по заданным параметрам. |
 
+### Учебные проекты
+
+| Предмет | Задача |
+| :--- | :--- |
+| **[VK-CommentsClassification](https://github.com/Byrandom18/VK-CommentsClassification)** | Классификация комментариев ВКонтакте: правила, маркерные слова (NLTK, Snowball) и эмбеддинги Navec. |
+| **[Q-learning-Pacman](https://github.com/Byrandom18/Q-learning-Pacman)** | Q-learning на NumPy: отдельные политики для 1, 2 и 3 призраков. Игра — [usawa/pypacman](https://github.com/usawa/pypacman). |
+| **[ScriptSentiment](https://github.com/Byrandom18/ScriptSentiment)** | Тональность реплик и граф персонажей в фильме «Иллюзия обмана»: NLTK, лексиконы, NetworkX. |
+| **[ObjectSegmentation](https://github.com/Byrandom18/ObjectSegmentation)** | Сегментация цветных фигур связными компонентами на NumPy, без OpenCV. |
+
 ## Билд персонажа
 
 ```text
 class      Unity mage / gameplay
-weapon     C# , иногда Kotlin
+weapon     C# , Python
 summon     ML-Agents ally (1 000 000 steps, всё ещё путает косяки)
 ult        git commit -m "it compiles on my machine"
 weakness   Hold on compiling shaders...
