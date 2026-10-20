@@ -23,10 +23,11 @@
 
 | Предмет | Эффект |
 | :--- | :--- |
-| **[PostupiCalc](https://github.com/Byrandom18/PostupiCalc)** | Считает зачисление в вуз по CSV с Госуслуг. [использовать](https://byrandom18.github.io/PostupiCalc/) |
+| **[ItchDB (preview)](https://github.com/Byrandom18/ItchDB-preview)** | Локальное веб-приложение на C# и .NET 10, которое собирает публичные страницы itch.io и считает по ним медианы, шансы, конкуренцию и тренды. [Превью](https://byrandom18.github.io/ItchDB-preview/) |
+| **[YandexGamesDB](https://github.com/Byrandom18/YandexGamesDB)** | .NET, анализирует каталог Яндекс Игр и считает спрос по жанрам, тегам, GQ, отзывы, инапы, платформы, описание, медианы, индекс перспективы. |
+| **[PostupiCalc](https://github.com/Byrandom18/PostupiCalc)** | Считает зачисление в вуз по CSV с Госуслуг. [Использовать](https://byrandom18.github.io/PostupiCalc/) |
 | **[OneClickSend](https://github.com/Byrandom18/OneClickSend)** | Android-ульт: одно нажатие — фото улетает в Telegram или ВК. |
 | **[personal-vpn](https://github.com/Byrandom18/personal-vpn)** | Бафф невидимости для выбранных приложений. свой WireGuard, не чужой «бесплатный VPN». |
-| **[YandexGamesDB](https://github.com/Byrandom18/YandexGamesDB)** | .NET, анализирует каталог Яндекс Игр и считает спрос по жанрам, тегам, GQ, отзывы, инапы, платформы, описание, медианы, индекс перспективы. |
 | **[ImageCollectHelper](https://github.com/Byrandom18/ImageCollectHelper)** | Автоматический сбор изображений с открытой лицензией по заданным параметрам. |
 
 ### Учебные проекты (Python, Jupyter)
